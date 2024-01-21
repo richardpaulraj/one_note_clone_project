@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.options-cont{
+    height: 3rem;
+    width: 3rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-size: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.options-cont > *{
+    color: white;
+}
+
+.tools-cont{
+    height: 5rem;
+    display: flex;
+    background-color: #ecf0f1;
+    width: 60vw;
+    justify-content: space-around;
+    position: absolute;
+    top: 2rem;
+    left: 20vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tools-cont > *{
+    display: block;
+    width: 4rem;
+}
+
+.pencil-tool-cont{
+    height: 5rem;
+    width: 8rem;
+    background-color: #ecf0f1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+
+    position: absolute;
+    top: 6.8rem;
+    left: 20vw;
+}
+.pencil-width-cont{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pencil-width-cont input{
+    width: 80%;
+    margin-top: 1rem;
+}
+.pencil-color-cont{
+    height: calc(100% - 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pencil-color{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+.eraser-tool-cont{
+    position: absolute;
+    top: 6.8rem;
+    left: calc(20vw + 8rem + 1rem);
+
+    background-color: #ecf0f1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+
+    height: 3rem;
+    width: 7rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.eraser-tool-cont input{
+    width: 80%;
+    /* margin-top: 1rem; */
+}
