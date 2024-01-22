@@ -8,16 +8,16 @@
 </head>
 <body>
     <div class="options-cont">
-        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
     </div>
-    <div class="tools-cont">
-        <img src = 'Icons/Pencil.svg'>
-        <img src = 'Icons/Eraser.svg'>
-        <img src = 'Icons/Download.svg'>
-        <img src = 'Icons/Upload.svg'>
-        <img src = 'Icons/StickyNote.svg'>
-        <img src = 'Icons/Undo.svg'>
-        <img src = 'Icons/Redo.svg'>
+    <div class="tools-cont scale-tools"> <!--here scale tools is just for animation purpose-->
+        <img src = 'Icons/Pencil.svg' class="pencil">
+        <img src = 'Icons/Eraser.svg' class="eraser">
+        <img src = 'Icons/Download.svg' class="download">
+        <img src = 'Icons/Upload.svg' class="upload">
+        <img src = 'Icons/StickyNote.svg' class="stickyNote">
+        <img src = 'Icons/Undo.svg' class="undo">
+        <img src = 'Icons/Redo.svg' class="redo">
     </div>
     <div class="pencil-tool-cont">
 
@@ -34,6 +34,19 @@
     <div class="eraser-tool-cont">
         <input type="range" min="2" max="10" value="3" />
     </div>
+
+    <!--This code is now written in tools.js to make it appear everytime when users clicks-->
+    <!-- <div class="sticky-cont">
+
+        <div class="header-cont">
+            <div class="minimize"></div>
+            <div class="remove"></div>
+        </div>
+        <div class="note-cont">
+            <textarea></textarea>
+        </div>
+
+    </div> -->
 
 
     <script src="https://kit.fontawesome.com/e36f0c5a9b.js" crossorigin="anonymous"></script>
