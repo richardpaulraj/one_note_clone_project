@@ -9,5 +9,5 @@
  Things to improve:
  1) Page Responsive
  2) Undo Redo sometimes acts wierdly especially in the other browser tabs 
- 3) The Pencil output could be made smooth the flow experience should come
+ 3) The Pencil output could be made smooth the flow experience should come   (https://codetheory.in/html5-canvas-drawing-lines-with-smooth-edges/)
  
